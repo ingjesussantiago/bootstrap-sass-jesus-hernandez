@@ -1,0 +1,16 @@
+{
+  "name": "bootstrap-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index. html",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/bootstrap.scss dist/css/bootstrap.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "jesuss",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.19"
+  }
+}
