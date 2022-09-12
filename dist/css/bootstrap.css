@@ -8394,7 +8394,7 @@ textarea.form-control-lg {
   background-color: #78be72; }
 
 .page4 {
-  background-color: #695e61; }
+  background-color: #ace6e6; }
 
 .page5 {
   background-color: #e289db; }
@@ -8423,3 +8423,62 @@ textarea.form-control-lg {
 
 .bgjesus5 {
   background-image: url(../../assets/img/bg6.jpg); }
+
+/* animaciones */
+main {
+  animation-delay: 10s; }
+
+@keyframes main_background {
+  0% {
+    background-image: url(../../assets/img/img1.jpg);
+    color: aliceblue; }
+  25% {
+    background-image: url(../../assets/img/img2.jpg);
+    color: white; }
+  50% {
+    background-image: url(../../assets/img/img3.jpg);
+    color: azure; }
+  75% {
+    background-image: url(../../assets/img/img4.jpg);
+    color: white; }
+  100% {
+    background-image: url(../../assets/img/img5.jpg);
+    color: aliceblue; } }
+
+#logo:hover {
+  animation-name: animation1;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 4s;
+  transform: scale(1.2, 1.2); }
+
+@keyframes animation1 {
+  from {
+    opacity: 0; }
+  15%, 45% {
+    opacity: .15; }
+  25%, 75% {
+    opacity: .35; }
+  to {
+    opacity: 0; } }
+
+header nav div a:hover {
+  transform: translate(-20px, 5px); }
+
+footer ul li:hover {
+  transform: translate(0px, 15px); }
+
+i:hover {
+  color: blue; }
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
